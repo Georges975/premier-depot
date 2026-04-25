@@ -1,15 +1,18 @@
 * {
 
-    margin: 0;
+    /* margin: 0;
     padding: 0;
     /* border: 2px solid black; */
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    /*box-sizing: border-box;
+    font-family: Arial, sans-serif; */
 }
 
 
 body {
+    margin: 0;
+    padding: 0;
     width: 1160px;
+    align-items: center;
     align-content: center;
     background: #f5f5f5;
     border: 5px solid black;
@@ -17,9 +20,11 @@ body {
 
 /* HEADER */
 .header {
-    display: flex;
-    align-items: center;
 
+    display: flex;
+    margin-left: 120px;
+    width: 920px;
+    align-items: center;
     background: #17abb3;
     color: white;
 
@@ -30,7 +35,7 @@ body {
 } */
 
 .header-right {
-    margin-left: 20%;
+    margin-left: 10%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -79,7 +84,7 @@ body {
 .container {
     /* margin-left: 100px; */
     display: flex;
-    max-width: 1100px;
+    max-width: 920px;
     margin: auto;
     background: white;
 }
@@ -158,10 +163,12 @@ p {
 
 /* FOOTER */
 footer {
+    width: 920px;
+    margin-left: 120px;
     background: #17abb3;
     color: white;
     text-align: center;
-    padding: 15px;
+    /* padding: 15px; */
 }
 
 .socials i {
