@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CV - Prénom Nom</title>
+    <title>CV - Georges CAMBRAY</title>
+    <link rel="icon" type="image/x-icon" href="./ASSETS/img/favicon.ico">
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Lato">
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="./ASSETS/css/style.css">
@@ -14,15 +15,23 @@
 
     <header class="header">
         <div class="header-left">
-            <img src="./ASSETS/img/photo.png" alt="Photo profil" class="photo">
+
+            <a href="./ASSETS/img/photo.png" target="_blank" class="zoom-link">
+                <img src="./ASSETS/img/photo.png" alt="Photo profil" class="photo">
+                <span class="loupe"><i class="fas fa-search-plus"></i></span>
+            </a>
         </div>
         <div class="header-right">
             <h1>Georges CAMBRAY</h1>
             <h2>Développeur Web et Web Mobile</h2>
             <div class="infos">
-                <span><i class="fas fa-envelope"></i>Mail</span>
-                <span><i class="fas fa-house"></i>Adresse</span>
-                <span><i class="fas fa-phone"></i>Téléphone</span>
+                <span><a href="mailto:georges.cambray@gmail.com" target="_blank">
+                        <i class="fas fa-envelope"></i>Mail</a></span>
+                <span><a
+                        href="https://www.google.com/maps/place/A%C3%A9roport+de+Saint-Pierre+-+Pointe-Blanche+%2F+LFVP/@46.7650227,-56.188159,15z/data=!4m6!3m5!1s0x4b6dc85716381acd:0x811ab0b27e61c13!8m2!3d46.7648546!4d-56.1793862!16zL20vMGJqNXc2?entry=ttu&g_ep=EgoyMDI2MDQyMi4wIKXMDSoASAFQAw%3D%3D">
+                        <i class="fas fa-house"></i>Adresse</a></span>
+                <span><a href="tel:0508412587">
+                        <i class="fas fa-phone"></i>Téléphone</a></span>
                 <span><i class="fas fa-car"></i>Permis B</span>
             </div>
         </div>
@@ -33,7 +42,7 @@
         <!-- COLONNE GAUCHE -->
         <aside class="sidebar">
 
-            <section>
+            <section class="cometences-diverses">
                 <h3>Compétences</h3>
                 <div class="skill">
                     <span>Outils bureautiques</span>
@@ -96,9 +105,9 @@
         </aside>
 
         <!-- CONTENU PRINCIPAL -->
-        <section class="content">
+        <div class="content">
 
-            <section>
+            <section class="Profil">
                 <h3>Profil</h3>
                 <p>
                     Enseignant pendant 40 ans, j'ai été amené à enseigner les différentes matières scientifiques en
@@ -107,7 +116,7 @@
                 </p>
                 <p>Après 10 ans d'enseignement en collège, on m'a confié la direction d'un établissement scolaire
                     pendant 30 ans, ce
-                    qui m'a permis de développer des compétences en comptabilité, en gestion d'équipe, en organisation
+                    qui m'a permis de développer des compétences en comptabilité, en gestion d'équipes, en organisation
                     et en
                     communication.
                 </p>
@@ -115,11 +124,19 @@
                     situations complexes, ce qui m'a permis d'acquérir une grande capacité d'adaptation et de résolution
                     de problèmes.
                 </p>
-                <p>Si j'ai une formation initiale en sciences de la vie, c'est le domaine des mathématiques qui m'a
-                    toujours passionné, et j'ai souhaité continuer à enseigner cette matière tout au long de ma
-                    carrière tout en assurant la direction de l'établissement scolaire.
+                <p>
+                    Ma fonction de directeur d'établissement m'a également permis d'encadrer et de soutenir les
+                    enseignants dans leur développement professionnel, ce qui m'a permis de développer des compétences
+                    en leadership et en gestion de ressources humaines.
+                <p>Si j'ai une formation initiale en sciences de la vie, c'est une matière que j'aime étudier à titre
+                    personnel, mais que je n'aime pas enseigner; par contre
+                    c'est l'enseignement des mathématiques qui m'a
+                    toujours passionné et motivé. Une fois en responsabilité d'un établissement scolaire, j'ai souhaité
+                    continuer à
+                    enseigner cette matière. J'ai donc mené en parallèle deux fonctions : celle d'enseignant et celle de
+                    Chef d'établissement..
                 </p>
-                <p>J'ai également été très intéressé par les nouvelles technologies et leur impact sur l'éducation, ce
+                <p>J'ai toujours été très intéressé par les nouvelles technologies et leur impact sur l'éducation, ce
                     qui m'a conduit à intégrer des outils numériques dans mes cours et à encourager mes élèves à
                     développer leurs compétences en informatique.
                 </p>
@@ -129,11 +146,11 @@
                     constante évolution, et de mettre mes compétences au service d'une association caritative qui prend
                     en charge le
                     handicap à Saint-Pierre et Miquelon.</p>
-                <p>En parallèle, je continue à prendre en soutien des élèves en difficuté scolaire de la sixième à la
-                    terminale en mathématiques.</p>
+                <p>En parallèle, je continue à prendre en soutien des élèves en difficutés scolaires de la sixième à la
+                    terminale dans la matière que j'affectionne : les mathématiques.</p>
             </section>
 
-            <section>
+            <section class="formations-stages-experience">
                 <h3>Formations</h3>
 
                 <div class="item">
@@ -170,7 +187,7 @@
 
             </section>
 
-            <section>
+            <section class="stages-experience">
                 <h3>Stages</h3>
 
                 <div class="item">
@@ -184,14 +201,14 @@
                 <div class="item">
                     <div>
                         <strong>Navire Océanographique - Cryos</strong><br>
-                        <em>Estimation de la biodiversité dans le Nord de l'Écosse</em>
+                        <em>Estimation quantitative de la biodiversité dans le Nord de l'Écosse</em>
                     </div>
                     <span>Juillet 1978</span>
                 </div>
 
             </section>
 
-            <section>
+            <section class="stages-experience">
                 <h3>Expérience professionnelle</h3>
 
                 <div class="item">
@@ -204,7 +221,7 @@
 
                 <div class="item">
                     <div>
-                        <strong>Professeur de Sciences et de mathématiques</strong><br>
+                        <strong>Professeur de Sciences et de Mathématiques</strong><br>
                         <em>Collège Saint-Christophe</em>
                     </div>
                     <span>Septembre 1982 - Octobre 1988</span>
@@ -212,26 +229,41 @@
 
                 <div class="item">
                     <div>
-                        <strong>Directeur d'établissement - Sous-directeur Diocésain</strong><br>
-                        <em>Collège Saint-Christophe</em>
+                        <strong>Directeur d'établissement <br>Sous-directeur Diocésain</strong><br>
+                        <em>- Collège Saint-Christophe <br>- Diocèse de Saint-Pierre et Miquelon</em>
                     </div>
                     <span>Octobre 1988 - Septembre 2019</span>
                 </div>
 
             </section>
 
-        </section>
+        </div>
 
     </main>
 
     <footer>
         <div class="socials">
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-github"></i>
-            <i class="fab fa-instagram"></i>
+            <a href="https://www.linkedin.com/in/TON-PROFIL" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/TON-PROFIL" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/TON-PROFIL" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
         </div>
-        <p>Mise à jour : JJ/MM/AAAA</p>
+
+        <p>Mise à jour : <span id="maj-date"></span></p>
+
     </footer>
+
+    <script>
+        const dateElement = document.getElementById("maj-date");
+        const today = new Date();
+        const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
+        dateElement.textContent = today.toLocaleDateString('fr-FR', options);
+    </script>
 
 </body>
 
